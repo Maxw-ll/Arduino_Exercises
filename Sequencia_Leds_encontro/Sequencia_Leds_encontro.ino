@@ -15,6 +15,10 @@ void loop() {
 }
 
 void efectLed(){
+  /*Utilizando uma segunda variável alem daquela que itera dentro do for, 
+   pode-se ligar ao mesmo tempo os leds das pontas, e por meio do incremento 
+   de uma e decremento da outra obtêm-se o efeito de colisão*/
+   
   int fim = 9;
   leddelay = analogRead(potpin)/4;
   for(int x=0; x<10; x++){

@@ -7,6 +7,8 @@ void setup() {
 }
 
 void loop() {
+  /* A ideia é utilizar o random pra determinar a intensidade do led,
+  mas o efeito em si é produzido acesdendo e apagando cada Led duas vezes*/
   randomSeed(analogRead(0));
   int intensidade = random(256);
   for(int x=0; x<2; x++){

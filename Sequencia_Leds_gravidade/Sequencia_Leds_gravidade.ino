@@ -9,6 +9,11 @@ void setup() {
 }
 
 void loop() {
+  /*A ideia é ter uma função que faz a bola ir e voltar, recebendo
+  como parâmetro uma altura, que vai diminuindo com o tmepo, por
+  meio do loop. Alem disso, acrescentei o "momentum" que determina 
+  de quanto em quanto essa altura diminui.*/
+  
   for(int z=10; z>-1; z-=momentum){
     altura(z);
   }

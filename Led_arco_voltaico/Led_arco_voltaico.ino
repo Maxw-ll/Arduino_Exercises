@@ -7,6 +7,11 @@ void setup() {
 }
 
 void loop() {
+  
+  /*Bem simples, usando a random aleatorizamos a intensidade, obtendo
+  o efeito de arco voltaico quando um dos leds tem a intensidade máxima 
+  na metade do outro*/
+  
   randomSeed(analogRead(0));
 
   analogWrite(azul1, random(256));
