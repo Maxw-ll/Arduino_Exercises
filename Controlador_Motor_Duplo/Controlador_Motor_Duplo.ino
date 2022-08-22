@@ -27,5 +27,28 @@ void setup() {
 
 void loop() {
 
-  
+    intensidadeMotor1 = analogRead(potenciometro1);
+    intensidadeMotor2 = analogRead(potenciometro2);
+
+    if(digitalRead(chaveMotor1)){
+        digitalWrite(positivoMotor1, HIGH);
+        digitalWrite(negativoMotor1, LOW);
+    }
+    else{
+        digitalWrite(positivoMotor1, LOW);
+        digitalWrite(negativoMotor1, HIGH);
+    }
+
+    if(digitalRead(chaveMotor2)){
+        digitalWrite(positivoMotor2, HIGH);
+        digitalWrite(negativoMotor2, LOW);
+    }
+    else{
+        digitalWrite(positivoMotor2, LOW);
+        digitalWrite(negativoMotor2, HIGH);
+    }
+    
+    analogWrite(sinalPWM1, intensidadeMotor1);
+    analogWrite(sinalPWM2, intensidadeMotor2);
+
 }
