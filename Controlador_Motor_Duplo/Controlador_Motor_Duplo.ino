@@ -27,8 +27,8 @@ void setup() {
 
 void loop() {
 
-    intensidadeMotor1 = analogRead(potenciometro1);
-    intensidadeMotor2 = analogRead(potenciometro2);
+    intensidadeMotor1 = analogRead(potenciometro1)/4;
+    intensidadeMotor2 = analogRead(potenciometro2)/4;
 
     if(digitalRead(chaveMotor1)){
         digitalWrite(positivoMotor1, HIGH);
