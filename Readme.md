@@ -9,3 +9,5 @@ Led_Luz_Emergencia - página 88
 Led_arco_voltaico - página 88
 
 Comunicação_Serial_RGB - página 90
+
+Controlador_Motor_Duplo - página 131
