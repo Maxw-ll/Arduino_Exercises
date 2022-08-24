@@ -11,3 +11,5 @@ Led_arco_voltaico - página 88
 Comunicação_Serial_RGB - página 90
 
 Controlador_Motor_Duplo - página 131
+
+Registrador_Deslocamento - página 140
