@@ -20,6 +20,7 @@ void setup() {
 
 void loop() {
   for(int i=0; i<255; i++){
+    for(int x=0; x<9; x++){numeroBinario[x]=0;}
     transformaBinario(i);
     setLed();
     Serial.print("Número atual: ");
