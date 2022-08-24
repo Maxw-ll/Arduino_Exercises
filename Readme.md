@@ -13,3 +13,5 @@ Comunicação_Serial_RGB - página 90
 Controlador_Motor_Duplo - página 131
 
 Registrador_Deslocamento - página 140
+
+Contador_Binario_Efeitos_Leds - página 150
